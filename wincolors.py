@@ -40,6 +40,8 @@ class colors:
     ERROR = 0x0004
     INFO = 0x0009
     SUCCESS = 0x000E
+    TIMER = 0x000D
+    HEADER = 0x0007
 
 
 def get_csbi_attributes(handle):

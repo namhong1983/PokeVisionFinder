@@ -6,19 +6,19 @@ Supports which pokemons to catch in a .txt file.
 
 
 
-Require: http://docs.python-requests.org/en/master/
 
 Command Line Usage:
 
+
 ```ruby
-usage: PokeVisionFinder.py [-h] [-m {Skip,Track,All}] [-s] [-l] [-L] [-c] [-C]
-                           [-p POKEMONS] -f FACTOR [-v {0,1,2}]
+usage: PokeVisionFinder.py [-h] [-m {Skip,All}] [-s] [-l] [-L] [-c] [-C]
+                           [-p POKEMONS] -t Timer -f FACTOR [-v {0,1,2}]
 
 PokeVisionFinder v0.1.4 - encode
 
 optional arguments:
   -h, --help            show this help message and exit
-  -m {Skip,Track,All}, --mode {Skip,Track,All}
+  -m {Skip,Track,All}, --mode {Skip,All}
                         Mode of work
   -s, --sniper          No use sniper
   -l, --loop            Run infinite
@@ -27,14 +27,25 @@ optional arguments:
   -C, --colors          No use colors
   -p POKEMONS, --pokemons POKEMONS
                         List of pokemons
+  -t TIMER, --timer TIMER
+                        Time to wait after snipe attempt				
   -f FACTOR, --factor FACTOR
                         ZoomFactor
   -v {0,1,2}, --verbose {0,1,2}
                         Verbose mode
 ```
 
+NEW: SIMPLY RUN THE PokeVisionFinder.py
+Defaults;
+Mode ALL
+Use Sniper
+Run Once
+No Logging
+Catch File
+Zoom Factor of 1
+Timer of 10
 
-# PokeSniper2 Setting (v1.7)
+# PokeSniper2 Setting (v1.11)
 
 Put PokeSniper2 Files on Sniper Folder
 
@@ -46,7 +57,7 @@ To all contributors on github, ownedcore and discord.
 
 If you want to contribute with a beer here you can, thanks!
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JSE6WU28B8XFW)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2DQCFP2CK8EDE)
 
 # Discord
 Join Discord.
